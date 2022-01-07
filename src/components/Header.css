@@ -1,0 +1,12 @@
+.boiteLogo{
+    display: flex;
+}
+.Headerlogo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.logo {
+    width: 100px;
+}
