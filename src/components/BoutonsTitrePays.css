@@ -1,0 +1,21 @@
+.ButtonsAndTitle {
+    background-color: transparent;
+}
+
+.NameCountry {
+ 
+}
+
+.AllButtons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+.button {
+    margin: 25px
+}
+
+.ButtonsAndTitle {
+    text-align: center;
+}
