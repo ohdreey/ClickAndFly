@@ -7,10 +7,6 @@
 }
 
 .container {
-    position: relative;
+    /* position: relative; */
 }
 
-.body {
-    position: absolute;
-    z-index: 2;
-}

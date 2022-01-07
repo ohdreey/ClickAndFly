@@ -1,3 +1,7 @@
+.artcont{
+    position: relative;
+    z-index: 2; 
+}
 .cateBox  {
     background-color: rgba(228, 222, 222, 0.219) ;
     /* color: whitesmoke; */
@@ -7,7 +11,8 @@
     margin-right: 10%;
     padding-top: 0.5px;
     padding-bottom: 0.5px;
-    font-size:20px;    
+    font-size:20px;  
+     
 
 }
 .artBox {
@@ -44,3 +49,5 @@
     border: 10px;
     border-color: wheat;
 }
+
+

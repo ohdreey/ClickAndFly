@@ -1,5 +1,8 @@
 import './Globes.css'
 import Earth from '../videos/earth.mp4'
+import BoutonsTitrePays from '../components/BoutonsTitrePays'
+import BoutonsPays from '../components/BoutonsPays'
+import Articlebox from '../components/Articlebox'
 
 const Globe = () => {
   return ( 
@@ -9,9 +12,6 @@ const Globe = () => {
         <source src={Earth} type='video/mp4' />
       </video>
     </div>
-    <div className='body'>
-      <button>Clique</button>
-     </div>
   </div>
   )}
   
