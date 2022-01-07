@@ -1,16 +1,12 @@
 import Globe from '../components/Globe'
+import './Home.css'
+import Articlebox from '../components/Articlebox'
+
 const Home = () => {
   return (
-    <div>
+    <div className='body'>
       <Globe />
-     <div>
-     lorem ipsum dolor sit amet, consectetur adipzefbuzebbezbfa  zmeBFUOIEZ2BFOBIEZ2FEZ  FEZFEZF
-     lorem ipsum dolor sit amet, consectetur adipzefbuzebbezbfa  zmeBFUOIEZ2BFOBIEZ2FEZ  FEZFEZF
-     lorem ipsum dolor sit amet, consectetur adipzefbuzebbezbfa  zmeBFUOIEZ2BFOBIEZ2FEZ  FEZFEZF
-     lorem ipsum dolor sit amet, consectetur adipzefbuzebbezbfa  zmeBFUOIEZ2BFOBIEZ2FEZ  FEZFEZF
-     a la con
-     </div> 
+      <Articlebox/>
     </div>
-  )
-}
+  )}
 export default Home
