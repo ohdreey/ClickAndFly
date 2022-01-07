@@ -1,0 +1,12 @@
+.buttonCountry{
+    margin: 15px;
+    height: 40px;
+    width: 120px;
+    box-shadow: 0px 0px 6px 6px rgba(119, 119, 119, 0.75);
+}
+
+.AllButtonsCountry {
+    position: relative;
+    z-index: 2;
+}
+
