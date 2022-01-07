@@ -1,4 +1,4 @@
-import Globe from '../components/Globe'
+import Globe from '../components/Globes'
 import './Home.css'
 import Articlebox from '../components/Articlebox'
 

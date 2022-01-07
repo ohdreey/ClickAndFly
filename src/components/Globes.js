@@ -1,4 +1,4 @@
-import './Globe.css'
+import './Globes.css'
 import Earth from '../videos/earth.mp4'
 
 const Globe = () => {
