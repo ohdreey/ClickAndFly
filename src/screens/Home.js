@@ -1,10 +1,11 @@
-import BoutonsTitrePays from './components/BoutonsTitrePays'
-import './App.css'
+import BoutonsTitrePays from '../components/BoutonsTitrePays'
+import BoutonsPays from '../components/BoutonsPays'
 
-function Home() {
+const Home = () => {
   return (
     <div className='Home'>
-      <BoutonsTitrePays/>
+       <BoutonsPays />
+      <BoutonsTitrePays />
     </div>
   )
 }

@@ -19,23 +19,24 @@ const BoutonsTitrePays = () => {
                 <div className="AllButtons">
 
                     <div className="button">    
-                        <img src={buttonMonument} alt="boutonMonument" className="buttonMonument" />
+                        <button className="buttonMonument"><img src={buttonMonument} alt="boutonMonument" ></img>  
+                        </button>
                     </div> 
-        
-                    <div className="button">
-                        <img src={buttonPicture} alt="boutonPhoto" className="buttonPicture"/>
+                    <div className="button">    
+                        <button className="buttonPicture"><img src={buttonPicture} alt="boutonPhoto" ></img>  
+                        </button>
                     </div> 
-                    
-                    <div className="button">
-                        <img src={buttonRecipe} alt="boutonRecette" className="buttonRecipe"/>
-                    </div>
-
-                    <div className="button">
-                        <img src={buttonPlay} alt="boutonLecture" className="buttonPlay"/>
-                    </div>
-
-                    <div className="button">
-                        <img src={buttonPlane} alt="boutonAvion" className="buttonPlane"/>
+                    <div className="button">    
+                        <button className="buttonRecipe"><img src={buttonRecipe} alt="boutonRecette"></img>  
+                        </button>
+                    </div> 
+                    <div className="button">    
+                        <button className="buttonPlay"><img src={buttonPlay} alt="boutonLecture" ></img>  
+                        </button>
+                    </div> 
+                    <div className="button">    
+                        <button className="buttonPlane"><img src={buttonPlane} alt="boutonAvion" ></img>  
+                        </button>
                     </div> 
 
                 </div>
