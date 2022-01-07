@@ -1,16 +1,19 @@
 .ButtonsAndTitle {
     background-color: transparent;
+    position: relative;
+    z-index: 2;
 }
 
 .NameCountry {
- 
+color: white;
 }
 
 .AllButtons {
     display: flex;
     justify-content: center;
     margin: auto;
-    
+    position: relative;
+    z-index: 2;
 }
 .button {
 margin: 15px 25px 15px 25px;
@@ -20,6 +23,7 @@ padding: 0px 0px 0px 0px;
 
 .ButtonsAndTitle {
     text-align: center;
+    margin-bottom:20px;
 }
 
 .buttonMonument {

@@ -6,11 +6,14 @@ import Articlebox from '../components/Articlebox'
 
 const Home = () => {
   return (
-    <div className='body'>
-      <Globe />
-      <BoutonsPays />
-      <BoutonsTitrePays />
-      <Articlebox/>
+    <div>
+       <Globe />
+        
+          <BoutonsPays />
+          <BoutonsTitrePays />
+          <Articlebox/>
+         
+        
     </div>
   )}
 export default Home

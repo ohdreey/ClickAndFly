@@ -11,11 +11,13 @@ const articleItems = [
 ]
 const Articlebox = () => {
   return (
-    <div>
+    <div className='artcont'>
       
       {articleItems.map((items) =>(
       <div>
-        <div className='cateBox'><h1>{items.categorie}</h1></div>
+          <div className='cateBox'>
+            <h1>{items.categorie}</h1>
+          </div>
           <div className='artBox'>
           <Article
             title={items.itemName}
