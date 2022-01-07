@@ -1,4 +1,10 @@
+import './Home.css'
+import Articlebox from '../components/Articlebox'
+
 const Home = () => {
-  return <div>poulet sadasdasd</div>
-}
+  return (
+    <div className='body'>
+      <Articlebox/>
+    </div>
+  )}
 export default Home
