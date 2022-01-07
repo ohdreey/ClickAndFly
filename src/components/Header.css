@@ -10,3 +10,8 @@
 .logo {
     width: 100px;
 }
+
+.boiteLogo {
+    position: relative;
+    z-index: 2;
+}
