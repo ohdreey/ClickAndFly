@@ -1,19 +1,34 @@
 import './Globes.css'
-import Earth from '../videos/earth.mp4'
-import BoutonsTitrePays from '../components/BoutonsTitrePays'
-import BoutonsPays from '../components/BoutonsPays'
-import Articlebox from '../components/Articlebox'
+import { Suspense } from 'react'
+import { Canvas, useLoader } from '@react-three/fiber'
+import { TextureLoader } from 'three/src/loaders/TextureLoader'
+import { OrbitControls, useTexture} from '@react-three/drei'
 
-const Globe = () => {
-  return ( 
-  <div className="container">
-    <div className='GlobeStyle'>
-      <video autoPlay loop muted>
-        <source src={Earth} type='video/mp4' />
-      </video>
-    </div>
-  </div>
-  )}
-  
+function Scene() {
+  const colorMap = useLoader(TextureLoader, 'earth-blue-marble.jpg')
+  return (
+    <>
+      <ambientLight intensity={0.2} />
+      <directionalLight />
+      <mesh>
+        <sphereBufferGeometry args={[2, 100, 100]} />
+        <meshStandardMaterial map={colorMap} />
+      </mesh>
+    </>
+  )
+}
 
-export default Globe
+export default function Globe() {
+  return (
+    <div className="earth">
+    <Canvas>
+        <Suspense fallback={null}>
+          <Scene />
+          <OrbitControls autoRotate />
+        </Suspense>
+      </Canvas>
+      </div>
+  )
+}
+
+

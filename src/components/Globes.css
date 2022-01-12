@@ -1,12 +1,15 @@
-.GlobeStyle > video {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
+html,
+body {
+  margin: 0;
+  overflow: hidden;
 }
 
-.container {
-    /* position: relative; */
+.earth {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+  z-index: 3;
 }
 
