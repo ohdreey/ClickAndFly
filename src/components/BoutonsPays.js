@@ -6,33 +6,38 @@ const BoutonsPays = () => {
     return (  
        
             <div className="AllButtonsCountry">
-
+ 
                 <div>    
-                    <button className="buttonCountry">Italie</button>
+                <button class="custom-btn btn-12"><span>Jamaïque</span><span>Caraïbes</span></button>
                 </div> 
         
+
                 <div>    
-                    <button className="buttonCountry">Afrique du Sud</button>
+                <button class="custom-btn btn-12"><span>Jamaïque</span><span>Caraïbes</span></button>
+                </div> 
+                
+                <div>    
+                <button class="custom-btn btn-12"><span>Brésil</span><span>Amérique Du Sud</span></button>
                 </div>  
                     
                 <div>    
-                    <button className="buttonCountry">Jamaïque</button>
+                <button class="custom-btn btn-12"><span>Australie</span><span>Océanie</span></button>
                 </div>   
 
                 <div>    
-                    <button className="buttonCountry">Australie</button>
+                <button class="custom-btn btn-12"><span>Thaïlande</span><span>Asie</span></button>
                 </div>  
 
                 <div>    
-                    <button className="buttonCountry">Thaïlande</button>
+                <button class="custom-btn btn-12"><span>État de New-York</span><span>États-Unis</span></button>
                 </div>  
 
                 <div>    
-                    <button className="buttonCountry">Etat de New York</button>
+                <button class="custom-btn btn-12"><span>Afrique Du Sud</span><span>Afrique</span></button>
                 </div>  
 
                 <div>    
-                    <button className="buttonCountry">Brésil</button>
+                <button class="custom-btn btn-12"><span>Italie</span><span>Europe</span></button>
                 </div>  
 
             </div>

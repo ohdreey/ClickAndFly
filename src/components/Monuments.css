@@ -1,0 +1,53 @@
+.artcont{
+    position: relative;
+    z-index: 2; 
+}
+.cateBox  {
+    background-color: rgba(228, 222, 222, 0.219) ;
+    /* color: whitesmoke; */
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size:20px;  
+     
+
+}
+.artBox {
+    background-color:  rgba(228, 222, 222, 0.068) ;
+    color: rgb(245, 245, 245);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+
+.monuments {
+    font-size:10px;
+    display: flex;
+    justify-content: space-between; 
+    text-align: left;
+    margin: 10px;
+}
+.monuments:hover{
+    background-color: rgba(156, 148, 148, 0.657) ;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.monumentImage {
+    background-color: rgba(156, 148, 148, 0.657) ;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-color: wheat;
+}
+
+
