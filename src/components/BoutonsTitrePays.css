@@ -12,23 +12,29 @@ color: white;
     display: flex;
     justify-content: center;
     margin: auto;
-    position: relative;
-    z-index: 4;
+    /* position: relative;
+    z-index: 4; */
 }
 .button {
-margin: 15px 25px 15px 25px;
-box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
-padding: 0px 0px 0px 0px;
+    margin: 15px 25px 15px 25px;
+    box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
+    padding: 0px 0px 0px 0px;
+    /* position: relative;
+    z-index: 4; */
 }
 
 .ButtonsAndTitle {
     text-align: center;
     margin-bottom:20px;
+    position: relative;
+    z-index: 4; 
 }
 
 .buttonMonument {
-padding: 0px;
-border: 0px;
+    padding: 0px;
+    border: 0px;
+    /* position: relative;
+    z-index: 4;  */
 }
 
 .buttonPicture {
