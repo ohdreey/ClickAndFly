@@ -1,6 +1,6 @@
 .artcont{
     position: relative;
-    z-index: 2; 
+    z-index: 4; 
 }
 .cateBox  {
     background-color: rgba(228, 222, 222, 0.219) ;
