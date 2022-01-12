@@ -6,6 +6,7 @@ import buttonPicture from "../assets/buttonPicture.png";
 import buttonPlane from "../assets/buttonPlane.png";
 import buttonPlay from "../assets/buttonPlay.png";
 import buttonRecipe from "../assets/buttonRecipe.png";
+import { Link } from "react-router-dom";
 
 const BoutonsTitrePays = () => {
     return (  
@@ -34,9 +35,11 @@ const BoutonsTitrePays = () => {
                         <button className="buttonPlay"><img src={buttonPlay} alt="boutonLecture" ></img>  
                         </button>
                     </div> 
-                    <div className="button">    
+                    <div className="button">  
+                    <Link to = "/"> 
                         <button className="buttonPlane"><img src={buttonPlane} alt="boutonAvion" ></img>  
                         </button>
+                    </Link>
                     </div> 
 
                 </div>
