@@ -8,9 +8,12 @@ import Header from "../components/Header"
 const Home = () => {
   return (
     <div>
-       <Globe />
+       
         <Header />
+        {/* <div className="bouton-box"> */}
           <BoutonsPays />
+          <Globe />
+        {/* </div> */}
           <BoutonsTitrePays />
           <Articlebox/>
          
