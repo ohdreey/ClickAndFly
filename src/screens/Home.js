@@ -4,13 +4,16 @@ import Globe from '../components/Globes'
 import './Home.css'
 import Articlebox from '../components/Articlebox'
 import Header from "../components/Header"
-import './Header.css'
+
 const Home = () => {
   return (
     <div>
-       <Globe />
+       
         <Header />
+        {/* <div className="bouton-box"> */}
           <BoutonsPays />
+          <Globe />
+        {/* </div> */}
           <BoutonsTitrePays />
           <Articlebox/>
          
