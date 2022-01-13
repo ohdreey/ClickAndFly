@@ -1,4 +1,5 @@
-import plane from "../assets/plane.png"
+import { Link } from "react-router-dom"
+import plane from "../assets/images/plane.png"
 import "./Header.css"
 
 const Header = () => {
@@ -6,7 +7,9 @@ const Header = () => {
         <header className ="boiteLogo">
         
         <div className="Headerlogo"> 
-            {/* <div><img className="logo" src={plane} alt="logo"/></div> */}
+            <Link to = "/">
+            <div><img className="logo" src={plane} alt="logo"/></div>
+            </Link>
             <div><h1 className="titreLogo">CLICK & FLY</h1></div>
         </div>
 
