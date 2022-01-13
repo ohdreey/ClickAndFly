@@ -1,13 +1,16 @@
 import React from "react";
-
+import LecteurAudio from "./LecteurAudio";
 import "./BoutonsTitrePays.css";
-import buttonMonument from "../assets/buttonMonument.png"
-import buttonPicture from "../assets/buttonPicture.png";
-import buttonPlane from "../assets/buttonPlane.png";
-import buttonPlay from "../assets/buttonPlay.png";
-import buttonRecipe from "../assets/buttonRecipe.png";
+import buttonMonument from "../assets/monuments.png"
+import buttonPicture from "../assets/photos.png";
+import buttonPlane from "../assets/globeAvion.png";
+import carnaval from "../assets/carnaval.png"
+import samba from "../assets/samba.mp3"
 
-const BoutonsTitrePays = () => {
+import buttonRecipe from "../assets/recette.png";
+
+const BoutonsTitrePays = ({audio, image}) => {
+
     return (  
 
         <div className="ButtonsAndTitle">
@@ -19,23 +22,24 @@ const BoutonsTitrePays = () => {
                 <div className="AllButtons">
 
                     <div className="button">    
-                        <button className="buttonMonument"><img src={buttonMonument} alt="boutonMonument" ></img>  
+                        <button className="monument"><img src={buttonMonument} alt="boutonMonument" ></img>  
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPicture"><img src={buttonPicture} alt="boutonPhoto" ></img>  
+                        <button className="photos"><img src={buttonPicture} alt="boutonPhoto" ></img>  
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonRecipe"><img src={buttonRecipe} alt="boutonRecette"></img>  
+                        <button className="recette"><img src={buttonRecipe} alt="boutonRecette"></img>  
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPlay"><img src={buttonPlay} alt="boutonLecture" ></img>  
-                        </button>
+                        <LecteurAudio audio={audio} />
+                        <img src={image} alt="boutonRecette"></img>
+
                     </div> 
                     <div className="button">    
-                        <button className="buttonPlane"><img src={buttonPlane} alt="boutonAvion" ></img>  
+                        <button className="globeAvion"><img src={buttonPlane} alt="boutonAvion" ></img>  
                         </button>
                     </div> 
 

@@ -1,18 +1,27 @@
 import React from "react";
 
 import "./BoutonsPays.css";
+import carnaval from "../assets/carnaval.png"
+import samba from "../assets/samba.mp3"
+import play2 from "../assets/play2.png"
+import Globe from "./Globes";
 
-const BoutonsPays = () => {
+const BoutonsPays = ({setAudio, setImage}) => {
+const bresilLecteur = () => {
+    setAudio(samba)
+    setImage(carnaval)
+}
+
     return (  
        
             <div className="AllButtonsCountry">
-
+              
                 <div>    
                     <button className="buttonCountry">Italie</button>
                 </div> 
         
-                <div>    
-                    <button className="buttonCountry">Afrique du Sud</button>
+                 <div>    
+                    <button className="buttonCountry"> Afrique du Sud</button>
                 </div>  
                     
                 <div>    
@@ -24,7 +33,7 @@ const BoutonsPays = () => {
                 </div>  
 
                 <div>    
-                    <button className="buttonCountry">Thaïlande</button>
+                    <button className="buttonCountry" >Thaïlande</button>
                 </div>  
 
                 <div>    
@@ -32,10 +41,10 @@ const BoutonsPays = () => {
                 </div>  
 
                 <div>    
-                    <button className="buttonCountry">Brésil</button>
+                    <button className="buttonCountry" onClick={() => bresilLecteur()}>Brésil</button>
                 </div>  
 
-            </div>
+            </div> 
 
     
     ) 
