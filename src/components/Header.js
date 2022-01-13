@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import plane from "../assets/plane.png"
+import plane from "../assets/images/plane.png"
 import "./Header.css"
 
 const Header = () => {
