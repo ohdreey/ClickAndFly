@@ -1,7 +1,7 @@
 .ButtonsAndTitle {
     background-color: transparent;
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 
 .NameCountry {
@@ -13,7 +13,7 @@ color: white;
     justify-content: center;
     margin: auto;
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 .button {
 margin: 15px 25px 15px 25px;
@@ -41,9 +41,10 @@ border: 0px;
     border: 0px;
     }
 
-.buttonPlay {
+.buttonPlay2 {
     padding: 0px;
     border: 0px;
+    background:none;
     }
 
 .buttonPlane {

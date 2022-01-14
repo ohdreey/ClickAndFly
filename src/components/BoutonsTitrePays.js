@@ -1,48 +1,41 @@
-import React from "react";
+
+import recette from "../assets/images/recette.png";
+import monuments from "../assets/images/monuments.png"
+import photos from "../assets/images/photos.png";
+import plane from "../assets/images/plane.png";
+
 
 import "./BoutonsTitrePays.css";
-import buttonMonument from "../assets/buttonMonument.png"
-import buttonPicture from "../assets/buttonPicture.png";
-import buttonPlane from "../assets/buttonPlane.png";
-import buttonPlay from "../assets/buttonPlay.png";
-import buttonRecipe from "../assets/buttonRecipe.png";
 
 const BoutonsTitrePays = ({setChat}) => {
     return (  
-
         <div className="ButtonsAndTitle">
-            
             <div className="NameCountry">
                 <h1>Nom du Pays</h1>
             </div>
-
                 <div className="AllButtons">
-
                     <div className="button">    
-                        <button className="buttonMonument" onClick={ () => setChat("Allons voir quels momunents nous cache ce magnifique pays!")}><img src={buttonMonument} alt="boutonMonument" ></img>  
+                        <button className="buttonMonument" onClick={() => setChat("Allons voir quels momunents nous cache ce magnifique pays!")}>
+                            <img src={monuments} alt="boutonMonument" />  
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPicture" onClick={ () => setChat("Découvrons les joyaux de ce monde !")}><img src={buttonPicture} alt="boutonPhoto" ></img>  
+                        <button className="buttonPicture" onClick={() => setChat("Découvrons les joyaux de ce monde !")}>
+                            <img src={photos} alt="boutonPhoto" />
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonRecipe" onClick={ () => setChat("Quels recettes allons nous découvrir ?!")}><img src={buttonRecipe} alt="boutonRecette"></img>  
+                        <button className="buttonRecipe" onClick={() => setChat("Quels recettes allons nous découvrir ?!")}>
+                            <img src={recette} alt="boutonRecette" />  
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPlay" onClick={ () => setChat("Un peu de musique ?!")}><img src={buttonPlay} alt="boutonLecture" ></img>  
+                        <button className="buttonPlane" onClick={() => setChat(" On repart à l'aventure !")}>
+                            <img src={plane} alt="boutonAvion" />
                         </button>
-                    </div> 
-                    <div className="button">    
-                        <button className="buttonPlane" onClick={ () => setChat(" On repart à l'aventure !")}><img src={buttonPlane} alt="boutonAvion" ></img>  
-                        </button>
-                    </div> 
-
+                    </div>
                 </div>
-
-        </div>
-    
+            </div>
     ) 
 }
     
