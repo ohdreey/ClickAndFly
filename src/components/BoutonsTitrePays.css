@@ -16,9 +16,10 @@ color: white;
     z-index: 4;
 }
 .button {
-margin: 15px 25px 15px 25px;
-box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
-padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    margin: 15px 25px 15px 25px;
+    box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
+    padding: 0px 0px 0px 0px;
 }
 
 .ButtonsAndTitle {
@@ -27,26 +28,31 @@ padding: 0px 0px 0px 0px;
 }
 
 .buttonMonument {
-padding: 0px;
-border: 0px;
+    background:none;
+    padding: 0px;
+    border: 0px;
 }
 
 .buttonPicture {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
 .buttonRecipe {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
 .buttonPlay {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
 .buttonPlane {
+    background:none;
     padding: 0px;
     border: 0px;
     }

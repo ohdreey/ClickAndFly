@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./BoutonsTitrePays.css";
-import buttonMonument from "../assets/buttonMonument.png"
-import buttonPicture from "../assets/buttonPicture.png";
-import buttonPlane from "../assets/buttonPlane.png";
-import buttonPlay from "../assets/buttonPlay.png";
-import buttonRecipe from "../assets/buttonRecipe.png";
+import buttonMonument from "../assets/monument.png"
+import buttonPicture from "../assets/photos.png";
+import buttonPlane from "../assets/monde.png";
+import buttonPlay from "../assets/play2.png";
+import buttonRecipe from "../assets/recipe.png";
 import { Link } from "react-router-dom";
 
 const BoutonsTitrePays = () => {
