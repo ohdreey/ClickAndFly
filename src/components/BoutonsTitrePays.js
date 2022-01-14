@@ -1,3 +1,4 @@
+import LecteurAudio from '../components/LecteurAudio'
 
 import recette from "../assets/images/recette.png";
 import monuments from "../assets/images/monuments.png"
@@ -5,13 +6,15 @@ import photos from "../assets/images/photos.png";
 import plane from "../assets/images/plane.png";
 
 
+
 import "./BoutonsTitrePays.css";
 
-const BoutonsTitrePays = ({setChat}) => {
+const BoutonsTitrePays = ({setChat, audio}) => {
     return (  
         <div className="ButtonsAndTitle">
             <div className="NameCountry">
                 <h1>Nom du Pays</h1>
+                  <LecteurAudio audio={audio} />
             </div>
                 <div className="AllButtons">
                     <div className="button">    
