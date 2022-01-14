@@ -1,15 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LecteurAudio from "./LecteurAudio";
 import "./BoutonsTitrePays.css";
+import monuments from "../assets/monument.png"
+import photos from "../assets/photos.png";
+import plane from "../assets/monde.png";
+import recipe from "../assets/recipe.png";
 
 
-import { Link } from "react-router-dom";
 
-import recette from "../assets/images/recette.png";
-import monuments from "../assets/images/monuments.png"
-import photos from "../assets/images/photos.png";
-import plane from "../assets/images/plane.png";
-import play2 from "../assets/images/play2.png";
+
 
 const BoutonsTitrePays = ({audio, image}) => {
 
@@ -33,12 +33,12 @@ const BoutonsTitrePays = ({audio, image}) => {
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="recette"><img src={recette} alt="boutonRecette"></img>  
+                        <button className="recipe"><img src={recipe} alt="boutonRecette"></img>  
                         </button>
                     </div> 
                     <div className="button">  
                     <Link to = "/"> 
-                        <button className="buttonPlane"><img src={plane} alt="boutonAvion" ></img>  
+                        <button className="plane"><img src={plane} alt="boutonAvion" ></img>  
                         </button>
                     </Link>
                     </div> 
