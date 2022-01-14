@@ -27,19 +27,19 @@ color: white;
     margin-bottom:20px;
 }
 
-.buttonMonument {
+.monument {
     background:none;
     padding: 0px;
     border: 0px;
 }
 
-.buttonPicture {
+.photos {
     background:none;
     padding: 0px;
     border: 0px;
     }
 
-.buttonRecipe {
+.recipe {
     background:none;
     padding: 0px;
     border: 0px;
@@ -51,7 +51,7 @@ color: white;
     border: 0px;
     }
 
-.buttonPlane {
+.plane {
     background:none;
     padding: 0px;
     border: 0px;

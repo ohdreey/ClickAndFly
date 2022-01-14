@@ -1,0 +1,14 @@
+.imagelecteurAf {
+    width: 67%;
+    height: 100%;
+}
+.audioPlayer {
+    margin:25px
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* top: 50%; */
+
+}
+.titreLogo {
+    color: rgb(245, 245, 245);
+}

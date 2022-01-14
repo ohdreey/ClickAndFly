@@ -1,23 +1,20 @@
 import BoutonsTitrePays from '../components/BoutonsTitrePays'
-import BoutonsPays from '../components/BoutonsPays'
-import Globe from '../components/Globes'
-import './Home.css'
-import Articlebox from '../components/Articlebox'
-import Header from "../components/Header"
 
-const Home = () => {
+import './Home.css'
+// import Articlebox from '../components/Articlebox'
+
+import play2 from "../assets/images/play2.png"
+import { useState  } from 'react'
+
+
+const Home = ({audio}) => {
+  const [image, setImage] = useState(play2)
   return (
     <div>
-       
-        <Header />
-        {/* <div className="bouton-box"> */}
-          <BoutonsPays />
-          <Globe />
-        {/* </div> */}
-          <BoutonsTitrePays />
-          <Articlebox/>
-         
-        
+      <BoutonsTitrePays audio={audio} image={setImage}/>
+      {/* <Articlebox/> */}
     </div>
-  )}
+  )
+}
+
 export default Home
