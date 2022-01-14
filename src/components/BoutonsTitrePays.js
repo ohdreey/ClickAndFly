@@ -38,7 +38,7 @@ const BoutonsTitrePays = ({audio, image}) => {
                     </div> 
                     <div className="button">    
                         <LecteurAudio audio={audio} />
-                        <img src={play2} alt="boutonRecette"></img>
+                        <img src={play2} alt="poulet"/>
 
                     </div> 
                     <div className="button">  
