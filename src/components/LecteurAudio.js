@@ -4,17 +4,9 @@ import "./LecteurAudio.css"
 const LecteurAudio = ({audio}) => {
 
 return (
-<div>
-
+  <div>
     <ReactAudioPlayer className="audioPlayer" src={audio} controls/>
-    
-
-
-
-
-
-
-    </div>
+  </div>
 
 )
 }

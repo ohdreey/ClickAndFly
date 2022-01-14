@@ -16,30 +16,25 @@ const BoutonsTitrePays = ({audio, image}) => {
 
     return (  
 
-        <div className="ButtonsAndTitle">
+    <div className="ButtonsAndTitle">
             
-            <div className="NameCountry">
-                <h1>Nom du Pays</h1>
-            </div>
+        <div className="NameCountry">
+            <h1>Nom du Pays</h1>
+            <LecteurAudio audio={audio} />
+        </div>
 
-                <div className="AllButtons">
+        <div className="AllButtons">
 
-                    <div className="button">    
-                        <button className="monument"><img src={monuments} alt="boutonMonument" ></img>  
-                        </button>
-                    </div> 
-                    <div className="button">    
+            <div className="button">    
+                <button className="monument"><img src={monuments} alt="boutonMonument" ></img></button>
+            </div> 
+            <div className="button">    
                         <button className="photos"><img src={photos} alt="boutonPhoto" ></img>  
                         </button>
                     </div> 
                     <div className="button">    
                         <button className="recette"><img src={recette} alt="boutonRecette"></img>  
                         </button>
-                    </div> 
-                    <div className="button">    
-                        <LecteurAudio audio={audio} />
-                        <img src={play2} alt="boutonRecette"></img>
-
                     </div> 
                     <div className="button">  
                     <Link to = "/"> 
