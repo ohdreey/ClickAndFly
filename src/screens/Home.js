@@ -1,9 +1,10 @@
 import BoutonsTitrePays from '../components/BoutonsTitrePays'
 import BoutonsPays from '../components/BoutonsPays'
-import Globe from '../components/Globes'
+// import World from '../components/Globes'
 import './Home.css'
 import Articlebox from '../components/Articlebox'
 import Header from "../components/Header"
+
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
         <Header />
         {/* <div className="bouton-box"> */}
           <BoutonsPays />
-          <Globe />
+          {/* <World /> */}
+        
         {/* </div> */}
           <BoutonsTitrePays />
           <Articlebox/>
