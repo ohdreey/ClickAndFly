@@ -1,6 +1,7 @@
 import React from "react";
 import LecteurAudio from '../components/LecteurAudio'
 
+
 import carnaval from "../assets/images/lecteur/carnaval.png"
 import play2 from "../assets/images/play2.png"
 import afriquesud from "../assets/images/lecteur/afriquesud.png"
@@ -18,9 +19,10 @@ import usap from "../assets/sons/usap.mp3"
 
 import "./BoutonsPays.css";
   
-const BoutonsPays = ({setAudio, setImage}) => {
-	const defaultLecteur = (mp3) => {
+const BoutonsPays = ({setAudio, setImage ,setChat}) => {
+	const handelClick = (mp3, botSentence) => {
         setAudio(mp3)
+        setChat(botSentence)
         // console.log('poulet', mp3)
 		// return <LecteurAudio audio={mp3} />
         console.log('yolo',usa)
@@ -29,25 +31,25 @@ const BoutonsPays = ({setAudio, setImage}) => {
 	return (  
       <div className="AllButtonsCountry">
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur()}>Italie</button>
+            <button className="buttonCountry" onClick={() => handelClick(afrique, "L'Italie ! Super ! Allons déguster des pasta !")}>Italie</button>
         </div> 
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(afrique)}> Afrique du Sud</button>
+            <button className="buttonCountry" onClick={() => handelClick(afrique, "L'Afrique du Sud ! Allons faire un safari !")}> Afrique du Sud</button>
         </div>  
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(jamaique)}>Jamaïque</button>
+            <button className="buttonCountry" onClick={() => handelClick(jamaique,"Jamaîca ! Bombacla !")}>Jamaïque</button>
         </div>   
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(australie)}>Australie</button>
+            <button className="buttonCountry" onClick={() => handelClick(australie, "Australie ! As-tu déjà rencontrer des kangourou ?")}>Australie</button>
         </div>  
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(thailande)} >Thaïlande</button>
+            <button className="buttonCountry" onClick={() => handelClick(thailande, "La Thaïlande, excellent choix ! Connais-tu le pad-thai ?")} >Thaïlande</button>
         </div>  
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(usap)}>Etat de New York</button>
+            <button className="buttonCountry" onClick={() => handelClick(usap, "Good Morning USA !")}>Etat de New York</button>
         </div>  
         <div>    
-            <button className="buttonCountry" onClick={() => defaultLecteur(samba)}>Brésil</button>
+            <button className="buttonCountry" onClick={() => handelClick(samba,"J'adore les plages de Kopa Cabana")}>Brésil</button>
         </div>  
       </div> 
     ) 
