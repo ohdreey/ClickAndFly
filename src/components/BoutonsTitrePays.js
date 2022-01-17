@@ -1,4 +1,4 @@
-import LecteurAudio from '../components/LecteurAudio'
+
 import { Link } from "react-router-dom";
 import LecteurAudio from "./LecteurAudio";
 import "./BoutonsTitrePays.css";
@@ -27,12 +27,11 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                     </div> 
                     <div className="button">    
                         <button className="buttonRecipe" onClick={() => setChat("Quels recettes allons nous découvrir ?!")}>
-                            <img src={recipe} alt="boutonRecette" />  
-                        <button className="recipe"><img src={recipe} alt="boutonRecette"></img>  
+                            <img src={recipe} alt="boutonRecette" /> 
                         </button>
                     </div> 
                     <div className="button">  
-                    <Link to = "/"> 
+                     
                         <button className="plane"><img src={plane} alt="boutonAvion" ></img>  
                         </button>
                     </div> 

@@ -28,7 +28,7 @@ export default function Globe() {
     <Canvas>
         <Suspense fallback={null}>
           <Scene />
-          <OrbitControls autoRotate autoRotateSpeed={1} />
+          <OrbitControls autoRotate autoRotateSpeed={0.7} />
         </Suspense>
       </Canvas>
       </div>
