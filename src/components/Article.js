@@ -1,4 +1,4 @@
-import foodImage from '../assets/chat.png'
+import foodImage from '../assets/images/chat.png'
 
 function Article(props) {
     return(

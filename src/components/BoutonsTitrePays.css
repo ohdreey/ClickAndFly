@@ -1,7 +1,7 @@
 .ButtonsAndTitle {
     background-color: transparent;
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 
 .NameCountry {
@@ -13,12 +13,13 @@ color: white;
     justify-content: center;
     margin: auto;
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 .button {
-margin: 15px 25px 15px 25px;
-box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
-padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    margin: 15px 25px 15px 25px;
+    box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
+    padding: 0px 0px 0px 0px;
 }
 
 .ButtonsAndTitle {
@@ -26,27 +27,32 @@ padding: 0px 0px 0px 0px;
     margin-bottom:20px;
 }
 
-.buttonMonument {
-padding: 0px;
-border: 0px;
+.monument {
+    background:none;
+    padding: 0px;
+    border: 0px;
 }
 
-.buttonPicture {
+.photos {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
-.buttonRecipe {
+.recipe {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
 .buttonPlay {
+    background:none;
     padding: 0px;
     border: 0px;
     }
 
-.buttonPlane {
+.plane {
+    background:none;
     padding: 0px;
     border: 0px;
     }

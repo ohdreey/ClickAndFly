@@ -1,0 +1,40 @@
+.bot{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 30px;
+    z-index: 10000;
+   
+    height: auto;
+    width: 100px;
+    
+
+}
+.bot img {
+    width: 125%;
+
+}
+
+.chatScreenBot{
+    animation: fadein 5s;
+    z-index: 1;
+    height:fit-content;
+    margin-left: auto;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    
+}
+
+
+@keyframes fadein {
+    from {opacity:0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;} 
+}
+
+.chatDelete {
+    display:none
+}
