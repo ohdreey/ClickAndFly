@@ -1,13 +1,11 @@
 import LecteurAudio from '../components/LecteurAudio'
-
-import recette from "../assets/images/recette.png";
-import monuments from "../assets/images/monuments.png"
-import photos from "../assets/images/photos.png";
-import plane from "../assets/images/plane.png";
-
-
-
+import { Link } from "react-router-dom";
+import LecteurAudio from "./LecteurAudio";
 import "./BoutonsTitrePays.css";
+import monuments from "../assets/monument.png"
+import photos from "../assets/photos.png";
+import plane from "../assets/monde.png";
+import recipe from "../assets/recipe.png";
 
 const BoutonsTitrePays = ({setChat, audio}) => {
     return (  
@@ -29,7 +27,13 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                     </div> 
                     <div className="button">    
                         <button className="buttonRecipe" onClick={() => setChat("Quels recettes allons nous découvrir ?!")}>
-                            <img src={recette} alt="boutonRecette" />  
+                            <img src={recipe} alt="boutonRecette" />  
+                        <button className="recipe"><img src={recipe} alt="boutonRecette"></img>  
+                        </button>
+                    </div> 
+                    <div className="button">  
+                    <Link to = "/"> 
+                        <button className="plane"><img src={plane} alt="boutonAvion" ></img>  
                         </button>
                     </div> 
                     <div className="button">    
