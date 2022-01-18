@@ -1,0 +1,15 @@
+.holderCarousel {
+    position: absolute;
+    top: -140%;
+    right: 50%;
+    display: none;
+}
+
+.carousel {
+    height: 500px;
+    width: 500px;
+}
+
+.active {
+    display: block;
+}

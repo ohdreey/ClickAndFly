@@ -1,3 +1,5 @@
+
+import Slider from './Slide';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import LecteurAudio from "./LecteurAudio";
@@ -11,10 +13,19 @@ import Monuments from "./monuments.js"
 import Recipe from "./Recipe";
 import Slide from "./Slide.js"
 
-const BoutonsTitrePays = ({setChat, audio}) => {
+const BoutonsTitrePays = ({setChat, audio, selectPays}) => {
+
+    const [isActive, setIsActive] = useState(false);
     const [monumentIsTrue, setMonumentIsTrue] = useState(false)
     const [recipeIsTrue, setRecipeIsTrue] = useState(false)
     const [pictureIsTrue, setPictureIsTrue] = useState(false)
+
+    const onClickPays = () => {
+        setChat("Découvrons les joyaux de ce monde !");
+        setIsActive(!isActive);
+    }
+    
+
 
     return (  
          <div className="ButtonsAndTitle">
@@ -33,11 +44,13 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPicture" onClick={() => 
+                        <button className="buttonPicture"
+                        onClick={() => 
                             setPictureIsTrue(!pictureIsTrue)
                             && setRecipeIsTrue(false)
                             && setMonumentIsTrue(false)
-                            && setChat("Découvrons les joyaux de ce monde !")}>
+                            && setChat("Découvrons les joyaux de ce monde !")
+                            && onClickPays()}>
                             <img src={photos} alt="boutonPhoto" />
                         </button>
                     </div> 
@@ -46,7 +59,7 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                             setRecipeIsTrue(!recipeIsTrue) 
                             && setMonumentIsTrue(false)
                             && setPictureIsTrue(false)
-                            && setChat("Quels recettes allons nous découvrir ?!")}>
+                            && setChat("Quelles recettes allons nous découvrir ?!")}>
                             <img src={recipe} alt="boutonRecette" /> 
                         </button>
                     </div> 
@@ -58,6 +71,7 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                     </Link>
                     </div>
                 </div>
+                <Slider isActive={isActive} selectPays={selectPays}/>
                 { 
                     monumentIsTrue ? <Monuments/> : pictureIsTrue ? <Slide/> : recipeIsTrue ? <Recipe/> : null
                     
