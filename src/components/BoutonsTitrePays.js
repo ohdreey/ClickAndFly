@@ -1,5 +1,7 @@
-import LecteurAudio from '../components/LecteurAudio'
-import { Link } from "react-router-dom";
+
+// import { Link } from "react-router-dom";
+import { useState } from 'react';
+import Slider from './Slide';
 import LecteurAudio from "./LecteurAudio";
 import "./BoutonsTitrePays.css";
 import monuments from "../assets/monument.png"
@@ -7,9 +9,19 @@ import photos from "../assets/photos.png";
 import plane from "../assets/monde.png";
 import recipe from "../assets/recipe.png";
 
-const BoutonsTitrePays = ({setChat, audio}) => {
+const BoutonsTitrePays = ({setChat, audio, selectPays}) => {
+
+    const [isActive, setIsActive] = useState(false);
+
+    const onClickPays = () => {
+        setChat("Découvrons les joyaux de ce monde !");
+        setIsActive(!isActive);
+    }
+    
+
     return (  
         <div className="ButtonsAndTitle">
+            
             <div className="NameCountry">
                 <h1>Nom du Pays</h1>
                   <LecteurAudio audio={audio} />
@@ -21,19 +33,13 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                         </button>
                     </div> 
                     <div className="button">    
-                        <button className="buttonPicture" onClick={() => setChat("Découvrons les joyaux de ce monde !")}>
+                        <button className="buttonPicture" onClick={() => onClickPays()}>
                             <img src={photos} alt="boutonPhoto" />
                         </button>
                     </div> 
                     <div className="button">    
                         <button className="buttonRecipe" onClick={() => setChat("Quels recettes allons nous découvrir ?!")}>
                             <img src={recipe} alt="boutonRecette" />  
-                        <button className="recipe"><img src={recipe} alt="boutonRecette"></img>  
-                        </button>
-                    </div> 
-                    <div className="button">  
-                    <Link to = "/"> 
-                        <button className="plane"><img src={plane} alt="boutonAvion" ></img>  
                         </button>
                     </div> 
                     <div className="button">    
@@ -42,6 +48,7 @@ const BoutonsTitrePays = ({setChat, audio}) => {
                         </button>
                     </div>
                 </div>
+                <Slider isActive={isActive} selectPays={selectPays}/>
             </div>
     ) 
 }
