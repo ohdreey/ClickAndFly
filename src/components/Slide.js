@@ -14,7 +14,7 @@ function Slider({ isActive, selectPays }) {
     // .then((res) => console.log(res)||setData()) 
     // return <div>{images.map(image => <p>{image.image01}<p>)}
   return (
-    <>
+    <div>
     <button onClick={() => console.log(images)}>CLICK</button>
     { images !== [] &&
       <div class={`holderCarousel ${isActive ? 'active' : ''}`}>
@@ -25,7 +25,7 @@ function Slider({ isActive, selectPays }) {
       </Carousel>
       </div>
     }
-    </>
+    </div>
   )
 }
 

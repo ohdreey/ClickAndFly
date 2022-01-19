@@ -32,7 +32,7 @@ export default function Globe() {
         </Suspense>
       </Canvas>
       </div>
-
+      
       
   )
 }
