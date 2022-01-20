@@ -13,7 +13,7 @@ import Monuments from "./monuments.js"
 import Recipe from "./Recipe";
 import Slide from "./Slide.js"
 
-const BoutonsTitrePays = ({setChat, audio, selectPays, country}) => {
+const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
 
     const [isActive, setIsActive] = useState(false);
     const [monumentIsTrue, setMonumentIsTrue] = useState(false)
@@ -24,15 +24,13 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country}) => {
         setChat("Découvrons les joyaux de ce monde !");
         setIsActive(!isActive);
     }
-    
-
-
     return (  
         <div className="ButtonsAndTitle">
-            {/* <div className="NameCountry"> */}
-                {/* <h1>yolo{country}</h1> */}
+            <div className="NameCountry">
+                
+                <h1>{country}</h1>
                 <LecteurAudio audio={audio} />
-            {/* </div> */}
+            </div>
             <div className="AllButtons">
                 <Link to='/pays/monument'>
                     <div className="button">    
@@ -40,8 +38,9 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country}) => {
                             setMonumentIsTrue(!monumentIsTrue)
                             && setRecipeIsTrue(false)
                             && setPictureIsTrue(false)
-                            && setChat("Allons voir quels momunents nous cache ce magnifique pays!")}
-                        >
+                            && setChat("Allons voir quels momunents nous cache ce magnifique pays!") 
+                        }
+                            >
                             <img src={monument} alt="boutonMonument" />  
                         </button>
                     </div> 

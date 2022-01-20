@@ -34,7 +34,7 @@ function App() {
           <Route path="/pays/recipe" element={<Slide />} />
           {/*<Route path="/pays/4" element={<Slide />} /> */}
         </Route>
-        
+        <Route path='/test/:id' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />}/>
      </Routes>
     </div>
   )
