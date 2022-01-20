@@ -11,7 +11,8 @@ const Pays = ({audio, setChat, selectPays}) => {
 	const [image, setImage] = useState(play2)
 	const [dataPays, setDataPays] = useState({})
 	let params = useParams();
-
+ 
+	
 	useEffect(() => {
 		console.log('poufsdfjsdkfhksd',params);
 		fetch(`https://raw.githubusercontent.com/JulesCharles/API-PAYS/master/api/id/${params.id}.json`)
