@@ -9,8 +9,8 @@ const Home = ({audio, setChat, selectPays}) => {
   const [image, setImage] = useState(play2)
   return (
     <div>
-      <BoutonsTitrePays audio={audio} image={setImage} setChat={setChat} selectPays={selectPays}/>
-      <Articlebox/>   
+      {/* <BoutonsTitrePays audio={audio} image={setImage} setChat={setChat} selectPays={selectPays}/>
+      <Articlebox/>    */}
     </div>
   )
 }
