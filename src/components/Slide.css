@@ -1,15 +1,38 @@
+.thumbs-wrapper .axis-vertical {
+    margin-left: 85%;
+}
+
+.carousel .thumbs-wrapper {
+    margin-left: 50%;
+    overflow: visible;
+}
+
+
 .holderCarousel {
     position: absolute;
-    top: -140%;
     right: 50%;
     display: none;
 }
 
 .carousel {
-    height: 500px;
-    width: 500px;
+    
+    width: 800px;
 }
 
 .active {
     display: block;
+}
+
+.carousel .carousel-slider {
+    margin-top: 110px;
+    margin-left: 50%;
+}
+
+.image {
+    width: 793px;
+    height:780px;
+}
+
+.slide selected {
+    height: 100px;
 }
