@@ -22,7 +22,7 @@ const Pays = ({audio, setChat, selectPays}) => {
   
 	return (
 		<div>
-			<BoutonsTitrePays audio={audio} image={setImage} setChat={setChat} selectPays={selectPays} country={dataPays.country} dataPays={dataPays}/>
+			<BoutonsTitrePays id={params.id} audio={audio} image={setImage} setChat={setChat} selectPays={selectPays} country={dataPays.country} dataPays={dataPays}/>
     </div>
   )
 }

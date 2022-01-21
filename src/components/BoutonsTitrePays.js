@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import {  Outlet, Link } from "react-router-dom";
 import LecteurAudio from "./LecteurAudio";
@@ -8,12 +6,12 @@ import monument from "../assets/monument.png"
 import photos from "../assets/photos.png";
 import plane from "../assets/monde.png";
 import recipe from "../assets/recipe.png";
-// import Articlebox from "./Articlebox";
-// import Monuments from "./monuments.js"
-// import Recipe from "./Recipe";
-import Slide from "./Slide.js"
+import Monuments from "./Monuments"
+import Recipe from "./Recipe";
+import Slide from "./Slide"
 
-const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
+
+const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) => {
 
     const [isActive, setIsActive] = useState(false);
     const [monumentIsTrue, setMonumentIsTrue] = useState(false)
@@ -36,7 +34,7 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
                 <LecteurAudio audio={audio} />
             </div>
             <div className="AllButtons">
-                <Link to='/pays/monument'>
+                <Link to={`/pays/monument/${id}`}>
                     <div className="button">    
                         <button className="buttonMonument" onClick={() => 
                             setMonumentIsTrue(!monumentIsTrue)
@@ -60,7 +58,7 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
                     </Link>
                 </div> 
                 <div className="button">
-                    <Link to='/pays/recipe'>
+                    <Link to={`/pays/recipe/${id}`}>
                         <button className="buttonRecipe" onClick={() => 
                             setRecipeIsTrue(!recipeIsTrue) 
                             && setMonumentIsTrue(false)
