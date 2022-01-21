@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { useState,useEffect } from 'react'  
+import { useState } from 'react'  
 import Slide from './components/Slide'
 import BoutonsPays from './components/BoutonsPays'
 import Globe from './components/Globes'
@@ -7,6 +7,7 @@ import Home from './screens/Home'
 import Pays from './screens/Pays'
 import Header from "./components/Header"
 import Bot from './components/Bot'
+//import { Carousel } from 'react-responsive-carousel';
 
 import Poulet from './components/Poulet'
 import './App.css'
@@ -30,8 +31,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/pays' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />} >
           <Route path="/pays/monument" element={<Poulet />} />
-          <Route path="/pays/picture" element={<Slide />} />
-          <Route path="/pays/recipe" element={<Slide />} />
+          <Route path="/pays/picture"  />
+          <Route path="/pays/recipe"  />
           {/*<Route path="/pays/4" element={<Slide />} /> */}
         </Route>
         <Route path='/test/:id' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />}/>

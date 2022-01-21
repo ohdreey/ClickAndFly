@@ -1,5 +1,5 @@
 
-import Slider from './Slide';
+
 import { useState } from "react";
 import {  Outlet, Link } from "react-router-dom";
 import LecteurAudio from "./LecteurAudio";
@@ -8,9 +8,9 @@ import monument from "../assets/monument.png"
 import photos from "../assets/photos.png";
 import plane from "../assets/monde.png";
 import recipe from "../assets/recipe.png";
-import Articlebox from "./Articlebox";
-import Monuments from "./monuments.js"
-import Recipe from "./Recipe";
+// import Articlebox from "./Articlebox";
+// import Monuments from "./monuments.js"
+// import Recipe from "./Recipe";
 import Slide from "./Slide.js"
 
 const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
@@ -21,8 +21,12 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
     const [pictureIsTrue, setPictureIsTrue] = useState(false)
 
     const onClickPays = () => {
-        setChat("Découvrons les joyaux de ce monde !");
         setIsActive(!isActive);
+        setPictureIsTrue(!pictureIsTrue)
+        setRecipeIsTrue(false)
+        setMonumentIsTrue(false)
+        setChat("Découvrons les joyaux de ce monde !")
+        console.log("Marche stp", isActive);
     }
     return (  
         <div className="ButtonsAndTitle">
@@ -49,11 +53,7 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
                     <Link to='/pays/picture'>
                         <button className="buttonPicture" 
                             onClick={() => 
-                            setPictureIsTrue(!pictureIsTrue)
-                            && setRecipeIsTrue(false)
-                            && setMonumentIsTrue(false)
-                            && setChat("Découvrons les joyaux de ce monde !")
-                            && onClickPays()}
+                            onClickPays()}
                         >
                             <img src={photos} alt="boutonPhoto" />
                         </button>
@@ -81,6 +81,7 @@ const BoutonsTitrePays = ({setChat, audio, selectPays, country, dataPays}) => {
                     </Link>
                 </div>
             </div>
+            <Slide selectPays={selectPays} isActive={isActive}/>
             <Outlet />
         </div>
     )
