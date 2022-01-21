@@ -7,7 +7,8 @@ import Home from './screens/Home'
 import Pays from './screens/Pays'
 import Header from "./components/Header"
 import Bot from './components/Bot'
-
+import Monuments from './components/Monuments'
+import Recipe from './components/Recipe'
 import Poulet from './components/Poulet'
 import './App.css'
 
@@ -29,9 +30,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/pays' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />} >
-          <Route path="/pays/monument" element={<Poulet />} />
+          <Route path="/pays/monument/:id" element={<Monuments />} />
           <Route path="/pays/picture" element={<Slide />} />
-          <Route path="/pays/recipe" element={<Slide />} />
+          <Route path="/pays/recipe/:id" element={<Recipe />} />
           {/*<Route path="/pays/4" element={<Slide />} /> */}
         </Route>
         <Route path='/test/:id' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />}/>

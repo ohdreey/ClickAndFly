@@ -30,27 +30,27 @@ const BoutonsPays = ({setAudio, setImage ,setChat, setSelectPays}) => {
         </div>  
         <div>
             <Link to='/test/3'>    
-                <button className="buttonCountry" onClick={() => handelClick(jamaique,"Jamaîca ! Bombacla !", 3)}>Jamaïque</button>
+                <button className="buttonCountry" onClick={() => handelClick(jamaique,"La Jamaique, nation du raggae !", 3)}>Jamaïque</button>
             </Link> 
         </div>   
         <div>    
             <Link to='/test/0'>  
-                <button className="buttonCountry" onClick={() => handelClick(australie, "Australie ! As-tu déjà rencontrer des kangourou ?", 0)}>Australie</button>
+                <button className="buttonCountry" onClick={() => handelClick(australie, "Ah, Australie ! As-tu déjà rencontré des kangourou ?", 0)}>Australie</button>
             </Link> 
         </div>  
         <div>
             <Link to='/test/5'>      
-                <button className="buttonCountry" onClick={() => handelClick(thailande, "La Thaïlande, excellent choix ! Connais-tu le pad-thai ?", 5)} >Thaïlande</button>
+                <button className="buttonCountry" onClick={() => handelClick(thailande, "La Thaïlande, excellent choix ! Entre zenitude et farnienté", 5)} >Thaïlande</button>
             </Link> 
         </div>  
         <div>
             <Link to='/test/2'>         
-                <button className="buttonCountry" onClick={() => handelClick(usap, "Good Morning USA !", 2)}>Etat de New York</button>
+                <button className="buttonCountry" onClick={() => handelClick(usap, "Good Morning USA ! I got the feeling that's it's gonna be a wonderfull day!", 2)}>Etat de New York</button>
             </Link>
         </div>  
         <div>
             <Link to='/test/4'>    
-                <button className="buttonCountry" onClick={() => handelClick(samba, "J'adore les plages de Kopa Cabana", 4)}>Brésil</button>
+                <button className="buttonCountry" onClick={() => handelClick(samba, "J'adore la plage de Copacabana", 4)}>Brésil</button>
             </Link>        
         </div>  
       </div> 
