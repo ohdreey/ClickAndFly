@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { useState,useEffect } from 'react'  
+import { useState } from 'react'  
 import Slide from './components/Slide'
 import BoutonsPays from './components/BoutonsPays'
 import Globe from './components/Globes'
@@ -9,7 +9,8 @@ import Header from "./components/Header"
 import Bot from './components/Bot'
 import Monuments from './components/Monuments'
 import Recipe from './components/Recipe'
-import Poulet from './components/Poulet'
+//import { Carousel } from 'react-responsive-carousel';
+
 import './App.css'
 
 function App() {
