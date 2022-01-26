@@ -32,7 +32,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/pays' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />} >
           <Route path="/pays/monument/:id" element={<Monuments />} />
-          <Route path="/pays/picture" element={<Slide />} />
+          <Route path="/pays/picture/:id" element={<Slide />} />
           <Route path="/pays/recipe/:id" element={<Recipe />} />
           {/*<Route path="/pays/4" element={<Slide />} /> */}
         </Route>

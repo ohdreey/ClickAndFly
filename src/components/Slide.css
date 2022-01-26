@@ -1,11 +1,13 @@
+
+
 .thumbs-wrapper .axis-vertical {
     margin-left: 85%;
 }
 
-.carousel .thumbs-wrapper {
+/* .carousel .thumbs-wrapper {
     margin-left: 50%;
     overflow: visible;
-}
+} */
 
 
 .holderCarousel {
@@ -14,7 +16,7 @@
     display: none;
 }
 
-.carousel {
+.Splide {
     
     width: 800px;
 }
@@ -23,10 +25,10 @@
     display: block;
 }
 
-.carousel .carousel-slider {
+/* .carousel .carousel-slider {
     margin-top: 110px;
     margin-left: 50%;
-}
+} */
 
 .image {
     width: 793px;
@@ -35,4 +37,38 @@
 
 .slide selected {
     height: 100px;
+}
+
+.splide__arrow--prev {
+    margin-left: 38em;
+  
+}
+
+
+.splide__arrow--next {
+    margin-right: 38em;
+}
+
+.splide__slide img {
+    margin-top: 61px;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 60px;
+    border: 10px solid white;
+}
+
+.splide__arrow {
+    width: 34px !important; 
+    height: 34px !important;
+}
+
+
+
+
+
+
+
+.splide__arrow svg {
+    height: 20px !important;
+    width: 20px !important;
 }
