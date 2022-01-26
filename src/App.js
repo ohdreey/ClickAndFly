@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { useState } from 'react'  
+import { useState } from 'react'
 import Slide from './components/Slide'
 import BoutonsPays from './components/BoutonsPays'
 import Globe from './components/Globes'
@@ -18,7 +18,7 @@ function App() {
   const [audio, setAudio] = useState("");
   const [chat, setChat] = useState("Hey ! Prêt à découvrir le monde ?");
   const [selectPays, setSelectPays] = useState(0);
-  
+
   // useEffect(() => {},[selectPays])
 
   return (
@@ -43,6 +43,3 @@ function App() {
     </div>
   )
 }
-
-export default App
-
