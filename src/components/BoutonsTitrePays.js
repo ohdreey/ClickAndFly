@@ -13,18 +13,18 @@ import Slide from "./Slide"
 
 const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) => {
 
-    const [isActive, setIsActive] = useState(false);
+    const [carouselIsTrue, setCarouselIsTrue] = useState(false);
     const [monumentIsTrue, setMonumentIsTrue] = useState(false)
     const [recipeIsTrue, setRecipeIsTrue] = useState(false)
     const [pictureIsTrue, setPictureIsTrue] = useState(false)
 
     const onClickPays = () => {
-        setIsActive(!isActive);
+        // setIsActive(!isActive);
         setPictureIsTrue(!pictureIsTrue)
         setRecipeIsTrue(false)
         setMonumentIsTrue(false)
         setChat("Découvrons les joyaux de ce monde !")
-        console.log("Marche stp", isActive);
+        // console.log("Marche stp", isActive);
     }
     return (  
         <div className="ButtonsAndTitle">
@@ -48,10 +48,14 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                     </div> 
                 </Link>
                 <div className="button">    
-                    <Link to='/pays/picture'>
-                        <button className="buttonPicture" 
-                            onClick={() => 
-                            onClickPays()}
+                    <Link to={`/pays/picture/${id}`}>
+                        <button className="buttonPicture" onClick={() => 
+                            setCarouselIsTrue(!carouselIsTrue)
+                            && onClickPays()
+                            && setRecipeIsTrue(false)
+                            && setPictureIsTrue(false)
+                            && setChat("Découvrons les joyaux de ce monde !")
+                        }
                         >
                             <img src={photos} alt="boutonPhoto" />
                         </button>
@@ -79,7 +83,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                     </Link>
                 </div>
             </div>
-            <Slide selectPays={selectPays} isActive={isActive}/>
+            
             <Outlet />
         </div>
     )
