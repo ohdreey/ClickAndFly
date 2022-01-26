@@ -20,7 +20,7 @@ useEffect(() => {
         <div className='artcont'>
             
                 <div className='cateBox'>
-                    <h1>Recettes</h1>
+                    <h1>Spécialités culinaires</h1>
                 </div>
                 <div className='artBox'>
                     <div className='article'>
