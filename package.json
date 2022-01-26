@@ -6,7 +6,7 @@
     "@react-three/drei": "^8.4.0",
     "@react-three/fiber": "^7.0.24",
     "@splidejs/react-splide": "^0.6.19",
-    "@splidejs/splide": "^3.6.9",
+    "@splidejs/splide": "^3.6.11",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",

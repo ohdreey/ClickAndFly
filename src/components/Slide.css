@@ -16,6 +16,10 @@
     display: none;
 }
 
+.carousel {
+    margin-bottom: 6rem;
+}
+
 .Splide {
     
     width: 800px;
