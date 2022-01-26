@@ -9,6 +9,7 @@ import Header from "./components/Header"
 import Bot from './components/Bot'
 import Monuments from './components/Monuments'
 import Recipe from './components/Recipe'
+import Footer from './components/Footer'
 //import { Carousel } from 'react-responsive-carousel';
 
 import './App.css'
@@ -24,9 +25,9 @@ function App() {
     <div className='App'>
       <Header />
       <Globe />
-      <div className= "boitebot">
+    <div className= "boitebot">
         <Bot chat={chat} />
-      </div>
+    </div>
       <BoutonsPays setAudio={setAudio} setChat={setChat} setSelectPays={setSelectPays}/>
       <Routes>
         <Route path='/' element={<Home />} />
@@ -38,6 +39,7 @@ function App() {
         </Route>
         <Route path='/test/:id' element={<Pays audio={audio} setChat={setChat} selectPays={selectPays} />}/>
      </Routes>
+     <Footer />
     </div>
   )
 }

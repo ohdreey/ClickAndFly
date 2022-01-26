@@ -1,14 +1,17 @@
-.bot{
+.bot {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     position: fixed;
     bottom: 30px;
     z-index: 10000;
     height: auto;
+    margin-left: 35px;
     width: 100px;
+    margin-bottom: 3rem;
 }
 .bot img {
-    width: 125%;
+    width: 220%;
+    height: max-content;
 }
 
 .chatScreenBot{
