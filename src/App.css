@@ -9,10 +9,8 @@ text-align: end;
 margin-right: 30px;
 }
 
-
 body {
     background-color: black;
-<<<<<<< HEAD
 }
 
 h1 {
@@ -22,7 +20,6 @@ h1 {
 h2 {
     font-size: 50px;
     font-family: 'Architects Daughter', cursive;
-
 }
 h3 {
     font-size: 50px;
@@ -34,13 +31,4 @@ p {
     font-size: 25px;
     margin-top: 1em;
 }
-=======
-    /* margin-bottom: 5rem; */
-}
 
-/* .footer {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-} */
->>>>>>> dev
