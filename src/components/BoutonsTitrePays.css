@@ -14,26 +14,30 @@ color: white;
     margin: auto;
     position: relative;
     z-index: 4;
+    margin-bottom: 50px;
 }
 .button {
     border-radius: 50%;
-    margin: 20px 25px 15px 25px;
+    margin: 40px 50px 15px 25px;
     box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
     padding: 0px 0px 0px 0px;
+    width: 100px;
+    height: 100px;
 }
 
 .ButtonsAndTitle {
     text-align: center;
     margin-bottom:20px;
+    margin-top: -350px;
 }
 
-.monument {
+.buttonMonument {
     background:none;
     border-radius: 50%;
     padding: 0px;
     border: 0px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .photos {
@@ -59,3 +63,4 @@ color: white;
     padding: 0px;
     border: 0px;
     }
+

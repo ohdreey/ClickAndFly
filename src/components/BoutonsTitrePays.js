@@ -34,7 +34,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
             <div className="AllButtons">
                 <Link to={`/pays/monument/${id}`}>
                     <div className="button">    
-                        <a className="buttonMonument" onClick={() => 
+                        <a href className="buttonMonument" onClick={() => 
                             setMonumentIsTrue(!monumentIsTrue)
                             && setRecipeIsTrue(false)
                             && setPictureIsTrue(false)
@@ -47,7 +47,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                 </Link>
                 <div className="button">    
                     <Link to={`/pays/picture/${id}`}>
-                        <a className="buttonPicture" onClick={() => 
+                        <a href className="buttonPicture" onClick={() => 
                             setCarouselIsTrue(!carouselIsTrue)
                             && onClickPays()
                             && setRecipeIsTrue(false)
@@ -61,7 +61,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                 </div> 
                 <div className="button">
                     <Link to={`/pays/recipe/${id}`}>
-                        <a className="buttonRecipe" onClick={() => 
+                        <a href className="buttonRecipe" onClick={() => 
                             setRecipeIsTrue(!recipeIsTrue) 
                             && setMonumentIsTrue(false)
                             && setPictureIsTrue(false)
@@ -73,7 +73,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                 </div>
                 <div className="button">  
                     <Link to = "/"> 
-                        <a className="buttonPlane"
+                        <a href className="buttonPlane"
                             onClick={() => setChat(" On repart à l'aventure !")}
                         >
                             <img src={plane} alt="boutonAvion" />

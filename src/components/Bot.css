@@ -8,7 +8,7 @@
     z-index: 10000;
     height: auto;
     margin-left: 35px;
-    width: 100px;
+    width: 90px;
 }
 .bot img {
     width: 220%;
@@ -25,6 +25,7 @@
     border-radius: 7px;
     color: rgb(0, 0, 0);
     opacity: 0.8;
+    
 }
 
 
@@ -39,4 +40,5 @@
 }
 #chat {
     font-family: 'Teko', sans-serif;
+    font-size: 23px;
 }
