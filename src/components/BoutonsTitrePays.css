@@ -17,7 +17,7 @@ color: white;
 }
 .button {
     border-radius: 50%;
-    margin: 15px 25px 15px 25px;
+    margin: 20px 25px 15px 25px;
     box-shadow: 0px 0px 7px 10px rgba(119, 119, 119, 0.75);
     padding: 0px 0px 0px 0px;
 }
