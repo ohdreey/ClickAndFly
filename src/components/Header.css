@@ -4,11 +4,11 @@
 .Headerlogo {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-    margin-top: 70px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 .logo {
-    width: 100px;
+    width: 150px;
 }
 
 .boiteLogo {

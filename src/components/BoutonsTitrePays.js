@@ -47,7 +47,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                 </Link>
                 <div className="button">    
                     <Link to={`/pays/picture/${id}`}>
-                        <button className="buttonPicture" onClick={() => 
+                        <a className="buttonPicture" onClick={() => 
                             setCarouselIsTrue(!carouselIsTrue)
                             && onClickPays()
                             && setRecipeIsTrue(false)

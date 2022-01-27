@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 .AllButtonsCountry
@@ -12,35 +12,35 @@ margin-right: 30px;
 
 body {
     background-color: black;
-<<<<<<< HEAD
 }
 
 h1 {
     font-size: 60px;
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Dosis', cursive;
 }
 h2 {
     font-size: 50px;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Rajdhani', cursive;
 
 }
 h3 {
     font-size: 50px;
+    font-family: 'Rajdhani';
+    color: white;
 }
 h4 {
     font-size: 35px;
+    font-family: 'Dosis'
 }
 p {
     font-size: 25px;
     margin-top: 1em;
 }
-=======
     /* margin-bottom: 5rem; */
-}
+
 
 /* .footer {
     height: 100%;
     width: 100%;
     position: fixed;
 } */
->>>>>>> dev
