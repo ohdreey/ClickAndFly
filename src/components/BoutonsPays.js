@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-//import LecteurAudio from '../components/LecteurAudio'
-
 import samba from "../assets/sons/samba.mp3"
 import afrique from "../assets/sons/afrique.mp3"
 import australie from "../assets/sons/australie.mp3"
@@ -22,44 +19,44 @@ const BoutonsPays = ({setAudio, setImage ,setChat, setSelectPays}) => {
     }
     console.log("pays",handelClick)
 	return (  
-    <div className="AllButtonsCountry">
-        <div>  <Link to='/test/1'> 
-            <button className="buttonCountry" onClick={() => handelClick(italie, "L'Italie ! Super ! Allons déguster des pasta !", 0)}>Italie</button>
-            </Link>
-        </div> 
-        <div>    
-            <Link to='/test/2'>
-                <button className="buttonCountry" onClick={() => handelClick(afrique, "L'Afrique du Sud ! Allons faire un safari !", 1)}> Afrique du Sud</button>
-            </Link>
-        </div>  
-        <div>
-            <Link to='/test/3'>    
-
-                <button className="buttonCountry" onClick={() => handelClick(jamaique,"La Jamaique, nation du raggae !", 3)}>Jamaïque</button>
-            </Link> 
-        </div>   
-        <div>    
-            <Link to='/test/4'>  
-                <button className="buttonCountry" onClick={() => handelClick(australie, "Ah, Australie ! As-tu déjà rencontré des kangourou ?", 0)}>Australie</button>
-            </Link> 
-        </div>  
-        <div>
-            <Link to='/test/5'>      
-                <button className="buttonCountry" onClick={() => handelClick(thailande, "La Thaïlande, excellent choix ! Entre zenitude et farnienté", 5)} >Thaïlande</button>
-            </Link> 
-        </div>  
-        <div>
-            <Link to='/test/6'>         
-                <button className="buttonCountry" onClick={() => handelClick(usap, "Good Morning USA ! I got the feeling that's it's gonna be a wonderfull day!", 2)}>Etat de New York</button>
-            </Link>
-        </div>  
-        <div>
-            <Link to='/test/7'>    
-                <button className="buttonCountry" onClick={() => handelClick(samba, "J'adore la plage de Copacabana", 4)}>Brésil</button>
-
-            </Link>        
-        </div>  
-      </div> 
-    ) 
-}   
-export default BoutonsPays
+        <div className="AllButtonsCountry">
+            <div>  <Link to='/test/1'> 
+                <button className="buttonCountry" onClick={() => handelClick(italie, "L'Italie ! Super ! Allons déguster des pastas !", 0)}>Italie</button>
+                </Link>
+            </div> 
+            <div>    
+                <Link to='/test/2'>
+                    <button className="buttonCountry" onClick={() => handelClick(afrique, "L'Afrique du Sud ! Allons faire un safari !", 1)}> Afrique du Sud</button>
+                </Link>
+            </div>  
+            <div>
+                <Link to='/test/3'>    
+    
+                    <button className="buttonCountry" onClick={() => handelClick(jamaique,"La Jamaique, nation du reggae !", 3)}>Jamaïque</button>
+                </Link> 
+            </div>   
+            <div>    
+                <Link to='/test/4'>  
+                    <button className="buttonCountry" onClick={() => handelClick(australie, "Ah, Australie ! As-tu déjà rencontré des kangourous ?", 0)}>Australie</button>
+                </Link> 
+            </div>  
+            <div>
+                <Link to='/test/5'>      
+                    <button className="buttonCountry" onClick={() => handelClick(thailande, "La Thaïlande, excellent choix ! Entre zenitude et farnienté", 5)} >Thaïlande</button>
+                </Link> 
+            </div>  
+            <div>
+                <Link to='/test/6'>         
+                    <button className="buttonCountry" onClick={() => handelClick(usap, "Good Morning USA ! I got the feeling that it's gonna be a wonderful day!", 2)}>Etat de New York</button>
+                </Link>
+            </div>  
+            <div>
+                <Link to='/test/7'>    
+                    <button className="buttonCountry" onClick={() => handelClick(samba, "J'adore la plage de Copacabana", 4)}>Brésil</button>
+    
+                </Link>        
+            </div>  
+          </div> 
+        ) 
+    }   
+    export default BoutonsPays

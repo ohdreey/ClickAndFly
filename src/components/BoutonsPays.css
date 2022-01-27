@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 .buttonCountry{
-    margin: 15px;
+    margin-bottom: 40px;
     height: 40px;
-    width: 120px;
+    width: 170px;
     box-shadow: 0px 0px 6px 6px rgba(119, 119, 119, 0.75);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
 }
 
 .AllButtonsCountry {
     position: relative;
     z-index: 4;
+    margin-top: -50px;
 }
 
 

@@ -6,8 +6,6 @@ import monument from "../assets/monument.png"
 import photos from "../assets/photos.png";
 import plane from "../assets/monde.png";
 import recipe from "../assets/recipe.png";
-import Monuments from "./Monuments"
-import Recipe from "./Recipe";
 import Slide from "./Slide"
 
 
@@ -30,13 +28,13 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
         <div className="ButtonsAndTitle">
             <div className="NameCountry">
                 
-                <h1>{country}</h1>
+                <h2>{country}</h2>
                 <LecteurAudio audio={audio} />
             </div>
             <div className="AllButtons">
                 <Link to={`/pays/monument/${id}`}>
                     <div className="button">    
-                        <button className="buttonMonument" onClick={() => 
+                        <a className="buttonMonument" onClick={() => 
                             setMonumentIsTrue(!monumentIsTrue)
                             && setRecipeIsTrue(false)
                             && setPictureIsTrue(false)
@@ -44,7 +42,7 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                         }
                             >
                             <img src={monument} alt="boutonMonument" />  
-                        </button>
+                        </a>
                     </div> 
                 </Link>
                 <div className="button">    
@@ -58,28 +56,28 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                         }
                         >
                             <img src={photos} alt="boutonPhoto" />
-                        </button>
+                        </a>
                     </Link>
                 </div> 
                 <div className="button">
                     <Link to={`/pays/recipe/${id}`}>
-                        <button className="buttonRecipe" onClick={() => 
+                        <a className="buttonRecipe" onClick={() => 
                             setRecipeIsTrue(!recipeIsTrue) 
                             && setMonumentIsTrue(false)
                             && setPictureIsTrue(false)
                             && setChat("Quelles recettes allons nous découvrir ?!")}
                         >
                             <img src={recipe} alt="boutonRecette" /> 
-                        </button>
+                        </a>
                     </Link>
                 </div>
                 <div className="button">  
                     <Link to = "/"> 
-                        <button className="buttonPlane"
+                        <a className="buttonPlane"
                             onClick={() => setChat(" On repart à l'aventure !")}
                         >
                             <img src={plane} alt="boutonAvion" />
-                        </button>
+                        </a>
                     </Link>
                 </div>
             </div>

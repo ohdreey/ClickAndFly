@@ -1,8 +1,7 @@
 import { useState, useEffect  } from 'react'
 import BoutonsTitrePays from '../components/BoutonsTitrePays'
-import { Routes, Route,useParams  } from 'react-router-dom'
+import {useParams  } from 'react-router-dom'
 import './Home.css'
-// import Articlebox from '../components/Articlebox'
 import play2 from "../assets/images/play2.png"
 
 
@@ -23,7 +22,7 @@ const Pays = ({audio, setChat, selectPays}) => {
 	return (
 		<div>
 			<BoutonsTitrePays id={params.id} audio={audio} image={setImage} setChat={setChat} selectPays={selectPays} country={dataPays.country} dataPays={dataPays}/>
-    </div>
+    	</div>
   )
 }
 
