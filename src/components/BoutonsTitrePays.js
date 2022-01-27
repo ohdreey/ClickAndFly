@@ -47,14 +47,14 @@ const BoutonsTitrePays = ({setChat, audio, id, selectPays, country, dataPays}) =
                 </Link>
                 <div className="button">    
                     <Link to={`/pays/picture/${id}`}>
-                        <button className="buttonPicture" onClick={() => 
+                        <a className="buttonPicture" onClick={() => 
                             setCarouselIsTrue(!carouselIsTrue)
                             && onClickPays()
                             && setRecipeIsTrue(false)
                             && setPictureIsTrue(false)
                             && setChat("Découvrons les joyaux de ce monde !")
-                        }
-                        >
+                        }>
+                
                             <img src={photos} alt="boutonPhoto" />
                         </a>
                     </Link>
