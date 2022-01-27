@@ -12,6 +12,7 @@ margin-right: 30px;
 
 body {
     background-color: black;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -33,3 +34,13 @@ p {
     font-size: 25px;
     margin-top: 1em;
 }
+=======
+    /* margin-bottom: 5rem; */
+}
+
+/* .footer {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+} */
+>>>>>>> dev
