@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 .AllButtonsCountry
 {
 text-align: end;
@@ -7,4 +12,24 @@ margin-right: 30px;
 
 body {
     background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+h2 {
+    font-size: 50px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+h3 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 35px;
+}
+p {
+    font-size: 25px;
+    margin-top: 1em;
 }
