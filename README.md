@@ -84,5 +84,9 @@
 <p>npm install</p>
 <p>npm start<p>
 Ces commandes installent les dépendances et démarrent l'application en mode développement.
-<h2>Captures d'écran/h2>
+<h2>Captures d'écran</h2>
 
+![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152047818-a6b9649f-b583-482d-bec8-a191eb94388d.png)
+![Capture d’écran 2022-02-01 à 21 33 58](https://user-images.githubusercontent.com/82833380/152047830-88267ee9-00b3-49ff-9f7b-eb4c5d265301.png)
+![Capture d’écran 2022-02-01 à 21 34 15](https://user-images.githubusercontent.com/82833380/152047838-e53a4830-e145-4d8f-ad05-3a03d5a11783.png)
+![Capture d’écran 2022-02-01 à 21 34 27](https://user-images.githubusercontent.com/82833380/152047846-c74efac8-da2b-4a3d-a111-5faab80327f4.png)
