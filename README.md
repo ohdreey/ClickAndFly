@@ -27,7 +27,7 @@
                                                                                   
 <hr/>
 <div align="center">
-:hammer_and_wrench: Langages et outils utilisés:
+:hammer_and_wrench: Langages et outils utilisés pour ce projet:
 <div>
    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
@@ -76,3 +76,12 @@
  <li>Une page mix proposant l'écoute des différents mix du DJ</li>
  <li>Un carroussel de photos</li>
  <li>Un formulaire </li>
+ 
+ <h2> API Utilisée</h2>
+ <p>Pour le projet, nous avons décidé de créer notre propre <a href="https://github.com/JulesCharles/API-PAYS.gitAPI">API</a></p>
+ 
+ 
+![Capture d’écran 2022-02-01 à 21 34 27](https://user-images.githubusercontent.com/82833380/152046847-342c05d7-8385-4b76-9afd-4babec3f11e8.png)
+![Capture d’écran 2022-02-01 à 21 34 15](https://user-images.githubusercontent.com/82833380/152046849-0328a366-1844-424f-8711-2e6d22ab67f4.png)
+![Capture d’écran 2022-02-01 à 21 33 58](https://user-images.githubusercontent.com/82833380/152046851-e550983c-6ab7-450c-a18d-9569819eb2cd.png)
+![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152046852-c461eee7-3565-4ecb-8d82-3837f75c6101.png)
