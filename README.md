@@ -63,11 +63,10 @@
 <br/>
 <ul>
     <li><a href="https://github.com/mariem31">Mariem</a> </li>
-    <li><a href="https://github.com/Pimpuss?tab=repositories">Milhan</a></li>
-    <li><a href="https://github.com/MunschThomas">Thomas</a></li>
-    <li><a href="https://github.com/Anouchka-M">Anoushka</a></li>
+    <li><a href="https://github.com/SummerCoder4">Deo</a></li>
+    <li><a href="https://github.com/DataLyLa">Lyndia</a></li>
+    <li><a href="https://github.com/JulesCharles">Jules</a></li>
     <li><a href="https://github.com/Yorgan-Agb">Yorgan</a> </li>
-   <li><a href="https://github.com/VladLeroy">Vlad</a> </li>
    <li>Audrey VALLIÉ</li>
 </ul>
 
