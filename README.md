@@ -69,19 +69,23 @@
     <li><a href="https://github.com/Yorgan-Agb">Yorgan</a> </li>
    <li>Audrey VALLIÉ</li>
 </ul>
-
+<br/>
 <h2>Caractéristiques</h2>
 <ul>
  <li>Page d'accueil avec un lecteur audio et un background fait en equilizer</li>
  <li>Une page mix proposant l'écoute des différents mix du DJ</li>
  <li>Un carroussel de photos</li>
  <li>Un formulaire </li>
- 
+ <br/>
  <h2> API Utilisée</h2>
  <p>Pour le projet, nous avons décidé de créer notre propre <a href="https://github.com/JulesCharles/API-PAYS.gitAPI">API</a></p>
- 
+ <br/>
+ <h2>Dans le répertoire du projet, vous pouvez exécuter :</h2>
+<p>npm install</p>
+<p>npm start<p>
+Ces commandes installent les dépendances et démarrent l'application en mode développement.
 <h2>Captures d'écran/h2>
-<img src"![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152047151-61de7efe-4bf6-4129-8b74-aaa8522a805f.png "/>
+![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152047151-61de7efe-4bf6-4129-8b74-aaa8522a805f.png 
 ![Capture d’écran 2022-02-01 à 21 33 58](https://user-images.githubusercontent.com/82833380/152047164-f0db6bb6-d878-4eb0-85b9-e959c23bbc14.png)
 ![Capture d’écran 2022-02-01 à 21 34 15](https://user-images.githubusercontent.com/82833380/152047188-e6c5b367-a14c-407e-a77b-f84de5833147.png)
 ![Capture d’écran 2022-02-01 à 21 34 27](https://user-images.githubusercontent.com/82833380/152047201-d556752d-e7ae-48ac-b9a1-fb9b6271af33.png)
