@@ -80,8 +80,8 @@
  <h2> API Utilisée</h2>
  <p>Pour le projet, nous avons décidé de créer notre propre <a href="https://github.com/JulesCharles/API-PAYS.gitAPI">API</a></p>
  
- 
-![Capture d’écran 2022-02-01 à 21 34 27](https://user-images.githubusercontent.com/82833380/152046847-342c05d7-8385-4b76-9afd-4babec3f11e8.png)
-![Capture d’écran 2022-02-01 à 21 34 15](https://user-images.githubusercontent.com/82833380/152046849-0328a366-1844-424f-8711-2e6d22ab67f4.png)
-![Capture d’écran 2022-02-01 à 21 33 58](https://user-images.githubusercontent.com/82833380/152046851-e550983c-6ab7-450c-a18d-9569819eb2cd.png)
-![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152046852-c461eee7-3565-4ecb-8d82-3837f75c6101.png)
+<h2>Captures d'écran/h2>
+![Capture d’écran 2022-02-01 à 21 33 38](https://user-images.githubusercontent.com/82833380/152047151-61de7efe-4bf6-4129-8b74-aaa8522a805f.png width="40" height="40")
+![Capture d’écran 2022-02-01 à 21 33 58](https://user-images.githubusercontent.com/82833380/152047164-f0db6bb6-d878-4eb0-85b9-e959c23bbc14.png)
+![Capture d’écran 2022-02-01 à 21 34 15](https://user-images.githubusercontent.com/82833380/152047188-e6c5b367-a14c-407e-a77b-f84de5833147.png)
+![Capture d’écran 2022-02-01 à 21 34 27](https://user-images.githubusercontent.com/82833380/152047201-d556752d-e7ae-48ac-b9a1-fb9b6271af33.png)
