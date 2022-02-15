@@ -90,6 +90,5 @@ Ces commandes installent les dépendances et démarrent l'application en mode d�
 ![Capture d’écran 2022-02-15 à 17 40 17](https://user-images.githubusercontent.com/82833380/154107745-96036e88-b1be-474f-9bd4-1a13218f2698.png)
 ![Capture d’écran 2022-02-15 à 17 40 29](https://user-images.githubusercontent.com/82833380/154107754-02f08340-2073-40be-a227-67afab839c04.png)
 ![Capture d’écran 2022-02-15 à 17 34 47](https://user-images.githubusercontent.com/82833380/154107760-4837ae43-5266-42a3-aa71-8146411a3d36.png)
-![Capture d’écran 2022-02-15 à 17 33 56](https://user-images.githubusercontent.com/82833380/154107765-3d001349-6753-4a5f-811c-28e2e10597b2.png)
 ![Capture d’écran 2022-02-15 à 17 40 56](https://user-images.githubusercontent.com/82833380/154107812-6d2ad903-246c-43bf-be3e-f6e5db752f0c.png)
 ![Capture d’écran 2022-02-15 à 17 41 11](https://user-images.githubusercontent.com/82833380/154107819-f773f16c-ea21-44ae-bc5d-eaa70099d192.png)
